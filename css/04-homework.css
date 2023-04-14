@@ -1,0 +1,198 @@
+
+body{
+    margin: 0;
+    padding: 0
+    ;
+}
+/*Header Part*/
+
+nav.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 14px;
+    gap: 20px;
+}
+
+nav.menu ul li{
+    list-style-type: none;
+}
+
+nav.menu ul li a{
+    text-decoration: none;
+    color: rgb(53, 50, 50);
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+nav.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/*Main Part*/
+
+.google{
+    width: 580px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+    
+}
+.google h1{
+    text-align: center;
+    font-size: 8rem;
+    position: absolute;
+    display: inline;
+    top: -100%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-image: url(../img/galaksiler.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+.google input{
+    display: block;
+    margin-top: 350px;
+    border: 1px solid rgb(155, 153, 153);
+    color: black;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 100%;
+    outline: none;
+    
+}
+
+.google input:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+.google a.search{
+    width: 20px;
+    opacity: 0.4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    outline: none;
+}
+
+.google a.btn1{
+    width: 20px;
+    opacity: 0.4;
+    position: absolute;
+    top: 13px;
+    right: -20px;
+}
+
+.google a.btn2{
+    width: 20px;
+    opacity: 0.4;
+    position: absolute;
+    top: 13px;
+    right: -45px;
+}
+
+.ara button{
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ara button:hover{
+    border: 1px solid grey;
+}
+
+.ara button.btn5{
+    margin-right: 0;
+}
+
+/*Footer Part*/
+footer{
+    background-image: url(../img/galaksiler.jpg);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+footer h6{
+    color: white;
+    font-size: 10px;
+    line-height: 1px;
+    font-weight: 600;
+    padding: 0 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+    margin: 10px;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+    line-height: 1px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+footer ul li a{
+    color: whitesmoke;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+footer div.menus{
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menus .menu2{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    flex: 1;
+}
+
+.menus .menu2 li{
+    list-style-type: none;
+}
+
+.menus .menu3{
+    display: flex;
+    justify-content: right;
+    margin: 0;
+}
+
+.menus .menu3 li{
+    list-style-type: none;
+}
