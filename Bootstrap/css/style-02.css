@@ -1,0 +1,34 @@
+.avatar{
+    height: 125px;
+    width: 125px;
+}
+
+.avatar-box{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-row{
+    height: 150px;
+    padding-top: 20px;
+}
+
+.sol-menu{
+    text-align: start;
+}
+
+.sag-menu{
+    text-align: end;
+}
+
+.sag-menu li{
+    list-style: none;
+}
+
+.carousel img{
+    height: 250px;
+}
+
+.card-ort img{
+    height: 150px;
+}

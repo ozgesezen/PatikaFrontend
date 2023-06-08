@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style-02.css">
+
+</head>
+
+<body>
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MySite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main-->
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <div class="avatar-box">
+            <img src="img/Avatar-Maker.png" class="card-img-top avatar" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Ozge Sezen KIRCA</h5>
+            <p class="card-text">Kodluyoruz..</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><i class="fa-brands fa-linkedin"></i>&nbsp; Ozge Sezen KIRCA</li>
+            <li class="list-group-item"><i class="fa-brands fa-github"></i>&nbsp; ozgesezen</li>
+            <li class="list-group-item"><i class="fa-brands fa-twitter" style="color: #2764ce;"></i>&nbsp; Sezen</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Profili Duzenle</a>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-header">
+            Modal
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Modal simple</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Open Modal
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="alert alert-primary" role="alert">
+          <strong>Well done!</strong> You successfully read this
+          important alert message.
+      </div>
+        <!--Carousel-->
+        <div id="carouselExampleIndicators carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://picsum.photos/id/23/200/300" class="d-block">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://picsum.photos/id/27/200/300" class="d-block">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="row mt-3 card-ort">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">This image is in the middle</p>
+              </div>
+              
+              <img src="https://picsum.photos/id/43/200/300" alt="Card image">
+              <div class="card-body">
+                <p class="card-text">of a card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">This image is in the middle</p>
+              </div>
+              <img src="https://picsum.photos/id/73/200/300" alt="Card image">
+              <div class="card-body">
+                <p class="card-text">of a card.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 mb-3">
+          <div class="col-md-12">
+            <div class="card mb-3">
+              <div class="card-body">
+                <p class="card-text">This image is in the middle</p>
+              </div>
+              <p class="bg-danger">Post Description</p>
+              <div class="card-body">
+                <p class="card-text">of a card.</p>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-header">
+            Highlights
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Special title treatment</h4>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title
+              and make up the bulk of the card's content.
+            </p>
+            <a href="#!" class="card-link">Card link</a>
+            <a href="#!" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Footer-->
+  <footer class="footer bg-light fixed-bottom" >
+    <div class="container">
+      <div class="row footer-row">
+        <div class="col-md-4 sol-menu">
+          ----
+         <p>Copyright <i class="fa-solid fa-copyright" style="color: #2c66c9;"></i>2023</p> 
+        </div>
+        <div class="col-md-8 sag-menu">---
+          <ul>
+            <li>Kullanici Sozlesmesi</li>
+            <li>SSS</li>
+            <li>Iletisim</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.5.3.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+</body>
+
