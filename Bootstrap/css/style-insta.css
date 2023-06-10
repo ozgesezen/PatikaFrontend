@@ -1,5 +1,12 @@
+.ust-sembol{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
 .insta{
-    padding-left: 150px;
+    padding-left: 350px;
 }
 
 .singin{
@@ -105,7 +112,7 @@
     display: flex;
     justify-content: end;
     padding-right: 0;
-    padding-left: 120px;  
+    padding-left: 200px;  
 }
 
 .like{
