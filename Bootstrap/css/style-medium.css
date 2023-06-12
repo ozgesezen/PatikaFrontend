@@ -1,0 +1,17 @@
+body{
+    font-family: 'EB Garamond', serif;
+    
+}
+
+.bg-yellow{
+    background-color: #FFC017;
+}
+
+.border-navbar{
+    border-bottom: 1px solid rgb(41,41,41,1);
+}
+
+.aside-butons li{
+    margin-bottom: 10px;
+   
+}
