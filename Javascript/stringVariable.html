@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1>kodluyoruz</h1>
+
+    <h2 id="title">Merhaba Dunya</h2>
+    <ul id="list">
+        <li>
+            <a href="#">Link goster</a>
+        </li>
+    </ul>
 
     <script>
+        console.log(!!2);
         let email = "ozgesezen@gmail.com";
         let firstName = "Ozge";
-        let secondName ="Sezen";
+        let secondName = "Sezen";
         let lastName = "KIRCA"
 
         console.log(email.length);
@@ -21,9 +31,9 @@
         console.log(firstName.charAt(2))
 
         //buyuk harf/kucuk harf
-        firstName=firstName.toLowerCase();
+        firstName = firstName.toLowerCase();
         console.log(firstName)
-        firstName=firstName.toUpperCase();
+        firstName = firstName.toUpperCase();
         console.log(firstName)
 
         //string icinde istedigimiz degeri bulma
@@ -31,14 +41,14 @@
         //eger olmayan bisey aratirsam -1 dondurur
 
         //belirli bir yere kadar alma
-        console.log(secondName.slice(1,3)) //1 dahil 3 degil
-        let domain = email.slice(email.search("@")+1); //@ isretini dahil etmesin diye +1 dedik
+        console.log(secondName.slice(1, 3)) //1 dahil 3 degil
+        let domain = email.slice(email.search("@") + 1); //@ isretini dahil etmesin diye +1 dedik
         console.log(domain)
 
-        console.log(domain.slice(0,domain.indexOf('.')))
+        console.log(domain.slice(0, domain.indexOf('.')))
 
         //bilgiyi degistirme
-        let kodluyoruzEmail=email.replace('gmail.com','kodluyoruz.org');
+        let kodluyoruzEmail = email.replace('gmail.com', 'kodluyoruz.org');
         console.log(kodluyoruzEmail);
         email.includes('@');
 
@@ -49,6 +59,27 @@
         let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()} ${secondName} ${lastName}`
 
         console.log(fullName)
+
+        console.log(document.URL);
+        console.log(document.location);
+        console.log(document.location.hostname);
+        console.log(document.body);
+
+        document.body.style.backgroundColor = "aqua";
+
+        let h2 = document.getElementsByTagName('h2');
+        let title = document.getElementById('title');
+        console.log(h2);
+        console.log(title);
+        title.innerHTML = "Degisen bilgi"
+        console.log(title.innerHTML);
+
+        let link = document.querySelector("ul#list>li>a")
+        console.log(link);
+        link.innerHTML += " degisti"
+        link.style.color = "red";
+        link.classList.add('btn');
     </script>
 </body>
+
 </html>
