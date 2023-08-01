@@ -4,4 +4,4 @@ let saat = document.querySelector("#saat");
 let now = new Date();
 
 info.innerHTML = `Merhaba, ${userName} Hos geldin!`
-saat.innerHTML = now.getHours() + ":" + now.getMinutes() + "-" +now.getDay()+"/"+now.getMonth();
+saat.innerHTML = now.getHours() + ":" + now.getMinutes() + "-" + now.getDay() + "/" + now.getMonth();
