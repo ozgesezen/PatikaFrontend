@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "image": "product1.jpg",
+      "title": "Sony WH-1000XM4 Kulaklık",
+      "desc": "Sony'nin üstün gürültü engelleme özellikli kulaklığı.",
+      "price": 349.99
+    },
+    {
+      "id": 2,
+      "image": "product2.jpg",
+      "title": "Bose QuietComfort 35 II",
+      "desc": "Bose'un yüksek kaliteli kablosuz kulaklığı.",
+      "price": 299.99
+    },
+    {
+      "id": 3,
+      "image": "product3.jpg",
+      "title": "Apple AirPods Pro",
+      "desc": "Apple'ın gelişmiş kablosuz kulaklıkları.",
+      "price": 249.99
+    },
+    {
+      "id": 4,
+      "image": "product4.jpg",
+      "title": "Sennheiser HD 660 S",
+      "desc": "Sennheiser'ın stüdyo kalitesinde kulaklığı.",
+      "price": 499.99
+    },
+    {
+      "id": 5,
+      "image": "product5.jpg",
+      "title": "JBL Quantum 800",
+      "desc": "Oyuncular için tasarlanmış yüksek performanslı kulaklık.",
+      "price": 179.99
+    },
+    {
+      "id": 6,
+      "image": "product6.jpg",
+      "title": "Beats Solo Pro",
+      "desc": "Beats'in şık ve kablosuz kulaklığı.",
+      "price": 249.99
+    }
+  ]
+  

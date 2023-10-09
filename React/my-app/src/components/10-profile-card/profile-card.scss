@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.profile-card{
+    font-family: 'Poppins',sans-serif;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+
+    .header{
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        border-radius: 1rem 1rem 0 0;
+        -webkit-border-radius: 1rem 1rem 0 0;
+        -moz-border-radius: 1rem 1rem 0 0;
+        -ms-border-radius: 1rem 1rem 0 0;
+        -o-border-radius: 1rem 1rem 0 0;
+        position: relative;
+
+        &::after{
+            content: "";
+            background-color: rgb(113, 172, 19,0.583);
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border-radius: 1rem 1rem 0 0;
+            -webkit-border-radius: 1rem 1rem 0 0;
+            -moz-border-radius: 1rem 1rem 0 0;
+            -ms-border-radius: 1rem 1rem 0 0;
+            -o-border-radius: 1rem 1rem 0 0;
+        }
+    }
+
+    .content{
+         text-align: center;
+         color: rgb(54, 54, 54);
+
+        .avatar{
+             width: 150px;
+             height: 150px;
+             border-radius: 75px;
+             -webkit-border-radius: 75px;
+              -moz-border-radius: 75px;
+              -ms-border-radius: 75px;
+              -o-border-radius: 75px;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center center;
+              margin: 0 auto;
+              transform: translateY(-50%);
+              margin-bottom: -75px;
+              border: 10px solid rgb(114, 110, 110, 0.516);
+              -webkit-transform: translateY(-50%);
+              -moz-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              -o-transform: translateY(-50%);
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        h4{
+            margin: 0;
+            font-size: 1.3rem;
+            color: rgb(158,158,158);
+            font-weight: 500;
+        }
+
+        .stats{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem;
+
+            h3{
+                font-size: 3rem;
+                font-weight: 400;
+                margin: 0;
+            }
+
+            h6{
+                font-size: 1rem;
+                color: rgb(158,158,158);
+                margin: 0;
+            }
+            
+        }
+    }
+}
